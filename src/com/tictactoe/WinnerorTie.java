@@ -1,7 +1,9 @@
 package com.tictactoe;
-import java.util.Scanner;
+
 import java.util.Random;
-public class WinnerOrTieOrChangeturn {
+import java.util.Scanner;
+
+public class WinnerorTie {
     static char[] cell = new char[10];
     static char player, computer;
     public static Scanner scanner = new Scanner(System.in);
@@ -125,7 +127,7 @@ public class WinnerOrTieOrChangeturn {
     }
     public static void main(String[] args)
     {
-        WinnerOrTieOrChangeturn obj = new WinnerOrTieOrChangeturn();
+        WinnerorTie obj = new WinnerorTie();
         System.out.println("Welcome to TIC_TAC_TOE game");
         System.out.println();
         obj.showBoard();
@@ -136,5 +138,4 @@ public class WinnerOrTieOrChangeturn {
         obj.checkToss();
 
     }
-
 }
