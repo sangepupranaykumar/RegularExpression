@@ -1,6 +1,6 @@
 package com.objectorientedprograms;
 import java.util.Scanner;
-public class StockAccountManagement {
+public class StockManagement {
     private static int numOfStocks;
     private static String shareName;
     private static int numOfShare;
@@ -8,51 +8,40 @@ public class StockAccountManagement {
     static int stockPrice;
     static int totalValue;
     public static int getNumOfStocks() {
-
         return numOfStocks;
     }
     public static void setNumOfStocks(int numOfStocks) {
-
-        StockAccountManagement.numOfStocks = numOfStocks;
+        StockManagement.numOfStocks = numOfStocks;
     }
     public static String getShareName() {
-
         return shareName;
     }
     public static void setShareName(String shareName) {
-
-        StockAccountManagement.shareName = shareName;
+        StockManagement.shareName = shareName;
     }
     public static int getNumOfShare() {
         return numOfShare;
     }
     public static void setNumOfShare(int numOfShare) {
-
-        StockAccountManagement.numOfShare = numOfShare;
+        StockManagement.numOfShare = numOfShare;
     }
     public static int getSharePrice() {
-
         return sharePrice;
     }
     public static void setSharePrice(int sharePrice) {
-
-        StockAccountManagement.sharePrice = sharePrice;
+        StockManagement.sharePrice = sharePrice;
     }
     public static int getStockPrice() {
-
         return stockPrice;
     }
     public static void setStockPrice(int stockPrice) {
-
-        StockAccountManagement.stockPrice = stockPrice;
+        StockManagement.stockPrice = stockPrice;
     }
     public static int getTotalValue() {
-
         return totalValue;
     }
     public static void setTotalValue(int totalValue) {
-
-        StockAccountManagement.totalValue = totalValue;
+        StockManagement.totalValue = totalValue;
     }
 
     public void addShare() {
