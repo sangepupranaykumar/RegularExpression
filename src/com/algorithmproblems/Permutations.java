@@ -1,9 +1,9 @@
 package com.algorithmproblems;
 import java.util.Scanner;
-public class Permutation {
-    public void permute(String str,int a,int b)
+public class Permutations {
+    public void permute(String str,int Qa,int Qb)
     {
-        if(a==b)
+        if(Qa==Qb)
             System.out.println(str);
         else
         {
@@ -32,7 +32,7 @@ public class Permutation {
      */
     public static void main(String[] args)
     {
-        Permutation objx = new Permutation();
+        Permutations objx = new Permutations();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter A String To Perform Permutation :-");
         String str = scanner.nextLine();
@@ -41,4 +41,5 @@ public class Permutation {
         System.out.println("Permutations of a String Is :-");
         objx.permute(str,Qa,Qb);
     }
+
 }
